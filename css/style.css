@@ -106,8 +106,8 @@ body a {
   .banner-info p{
       color: #FFFFFF;
       font-size: 1em;
-      line-height: 1.8em;
-      margin: 2em 0 0 0;
+      line-height: 0;
+      margin: 1.5em 0 0 0;
   }
   .banner-grad-img {
       width: 100%;
@@ -659,7 +659,30 @@ body a {
   /*-- //contact --*/
 
 /* -- MENU PAGE STYLE SHEET -- */
-
 .menu-info{
   color: white;
+  text-align: center;
+  font-size: 36px;
+}
+.menu-items{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.menu-description{
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  font-style: italic;
+}
+.seafood-notes, .lunch-notes{
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  margin: 0;
+}
+.menu-subinfo{
+  color: white;
+  text-align: center;
+  font-size: 30px;
 }
