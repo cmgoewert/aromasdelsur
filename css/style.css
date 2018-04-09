@@ -212,7 +212,7 @@ body a {
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
   }
-  i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-google-plus,i.fa.fa-dribbble{
+  i.fa.fa-twitter,i.fa.fa-facebook,i.fa.instagram,i.fa.fa-dribbble{
       color: #FFF;
       font-size: 1.5em;
   }
@@ -229,11 +229,8 @@ body a {
   .footer-icons  ul li a.facebook{
       background:#3b5998;
   }
-  .footer-icons  ul li a.chrome{
+  .footer-icons  ul li a.instagram{
       background:#dc4e41;
-  }
-  .footer-icons  ul li a.dribbble{
-      background:#ea4c89;
   }
   .footer-icons  ul li a.twitter:hover{
       background: #FD5C63;
