@@ -180,27 +180,26 @@ body a {
 
   /*-- HOME PAGE FOOTER --*/
   .footer{
-      padding: 4em 0;
+      padding: 0 0;
       background: #EAF7FD;
   }
   .footer-heading h3{
       color: black;
-      text-align: left;
-  }
-
-  .footer-icons{
-      margin: 4em 0 0 0;
-      text-align: left;
+      float: right;
+      font-size: 15px;
+      font-weight: bold;
   }
   .footer-icons ul{
-      padding:0;
+      padding:3em;
       margin:0;
   }
+  /* horizontal setting for the social media layout */
   .footer-icons ul li {
       display: inline-block;
       margin: 0 1em;
   }
-  .footer-icons  ul li a.twitter {
+  /* circle of the icons */
+ .footer-icons  ul li a.twitter {
       width: 50px;
       height: 50px;
       display: block;
@@ -329,8 +328,12 @@ body a {
 
 
 /* END ABOUT PAGE STYLE SHEET*/
-
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
 
 /* DO WE NEED THIS STUFF?? (below)*/
 
