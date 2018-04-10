@@ -16,11 +16,6 @@
 
 </head>
 <body>
-        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
-        <script src="js/jquery-1.11.1.min.js"></script>
-        <script src="js/FirebaseDB.js"></script>
-        <script src="js/bootstrap.js"></script>
-
             <div data-vide-bg="video/cook">
                 <!-- banner -->
                 <div class="banner">
@@ -47,7 +42,30 @@
                             <div class="clearfix"> </div>
                         </div>
                         <div class="banner-info">
-                            <h2>Contact Us</h2>
+                            <!-- CONTACT SECTION -->
+                                <div class="mt-4 col-md-12" name="contact" id="contactSection">
+                                    <div class="col-md-8 mx-auto">
+                                    <form id="contactForm">
+                                    <h2 class="pt-4 text-white text-center">Questions? Contact us here!</h2>
+                                    <div class="form-group">
+                                        <label for="nameInput">Full Name</label>
+                                        <input type="text" class="form-control" id="nameInput" placeholder="Enter name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="emailInput">Email address</label>
+                                        <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">This email will be used to respond to your request.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="messageInput">Message</label>
+                                        <textarea type="text" rows="3" class="form-control" id="messageInput" placeholder="Enter message"></textarea>
+                                        </div>
+                                        <p class="pt-4 text-center text-green" id="contactConfirmation">Request sent! You will be contacted shortly.</p>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                
+                                    </form>
+                                </div>
+                                </div>
                         </div>
                   </div>
 
@@ -77,5 +95,12 @@
 
 
                   <!-- //footer -->
+
+                  
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/FirebaseDB.js"></script>
+        <script src="js/mainScripts.js"></script>
 </body>
 </html>

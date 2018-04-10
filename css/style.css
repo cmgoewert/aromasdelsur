@@ -11,6 +11,22 @@ body a {
       font-size: 100%;
       font-family: Palatino;
   }
+
+  #contactConfirmation {
+    visibility: hidden;
+    color: green;
+  }
+
+  #contactSection {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: 0em;
+  }
+  
+  #contactSection label{
+    color: white;
+  }
+
   /*-- background banner  --*/
   .banner{
       background: #421815;
