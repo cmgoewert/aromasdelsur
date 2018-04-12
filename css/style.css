@@ -22,7 +22,7 @@ body a {
     border-top-right-radius: 25px;
     margin-bottom: 0em;
   }
-  
+
   #contactSection label{
     color: white;
   }
@@ -211,7 +211,7 @@ body a {
       margin: 0 1em;
   }
   /* circle of the icons */
- .footer-icons  ul li a.twitter {
+ .footer-icons  ul li a.twitter, a.fa-google-plus-g, a.fab-yelp, a.fab-tripadvisor{
       width: 50px;
       height: 50px;
       display: block;
@@ -223,7 +223,7 @@ body a {
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
   }
-  i.fa.fa-twitter,i.fa.fa-facebook,i.fa.instagram,i.fa.fa-dribbble{
+  i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-dribbble, i.fa-google-plus-circle, i.fa.fa-yelp, i.fa.fa-tripadvisor{
       color: #FFF;
       font-size: 1.5em;
   }
@@ -240,11 +240,17 @@ body a {
   .footer-icons  ul li a.facebook{
       background:#3b5998;
   }
-  .footer-icons  ul li a.instagram{
-      background:#dc4e41;
-  }
   .footer-icons  ul li a.twitter:hover{
       background: #FD5C63;
+  }
+  .footer-icons ul li a.fa-google-plus-g{
+    background: red;
+  }
+  .footer-icons ul li a.fab-yelp{
+    background: red;
+  }
+  .footer-icons ul li a.fab-tripadvisor{
+    background: black;
   }
   /*-- END HOME PAGE FOOTER  --*/
 
