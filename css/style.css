@@ -211,7 +211,7 @@ body a {
       margin: 0 1em;
   }
   /* circle of the icons */
- .footer-icons  ul li a.twitter, a.fa-google-plus-g, a.fab-yelp, a.fab-tripadvisor{
+ .footer-icons  ul li a.twitter, a.instagram, a.fab-yelp, a.fab-tripadvisor{
       width: 50px;
       height: 50px;
       display: block;
@@ -223,7 +223,7 @@ body a {
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
   }
-  i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-dribbble, i.fa-google-plus-circle, i.fa.fa-yelp, i.fa.fa-tripadvisor{
+  i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-dribbble, i.instagram, i.fa.fa-yelp, i.fa.fa-tripadvisor{
       color: #FFF;
       font-size: 1.5em;
   }
@@ -243,8 +243,8 @@ body a {
   .footer-icons  ul li a.twitter:hover{
       background: #FD5C63;
   }
-  .footer-icons ul li a.fa-google-plus-g{
-    background: red;
+  .footer-icons ul li a.instagram{
+    background: purple;
   }
   .footer-icons ul li a.fab-yelp{
     background: red;
