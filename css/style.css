@@ -19,15 +19,15 @@ body a {
   }
 
   #contactSection {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    margin-bottom: 0em;
-  }
-  
-  #contactSection label{
-    color: white;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    margin-bottom: 10em;
   }
 
+  #contactSection label{
+    color: white;
+    text-size: 20px;
+  }
   /*-- background banner  --*/
   .banner{
       background: #421815;
@@ -214,7 +214,7 @@ body a {
       margin: 0 1em;
   }
   /* circle of the icons */
- .footer-icons  ul li a.twitter {
+ .footer-icons  ul li a.twitter, a.instagram, a.fab-yelp, a.fab-tripadvisor{
       width: 50px;
       height: 50px;
       display: block;
@@ -226,7 +226,7 @@ body a {
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
   }
-  i.fa.fa-twitter,i.fa.fa-facebook,i.fa.instagram,i.fa.fa-dribbble{
+  i.fa.fa-twitter,i.fa.fa-facebook,i.fa.fa-dribbble, i.instagram, i.fa.fa-yelp, i.fa.fa-tripadvisor{
       color: #FFF;
       font-size: 1.5em;
   }
@@ -243,11 +243,17 @@ body a {
   .footer-icons  ul li a.facebook{
       background:#3b5998;
   }
-  .footer-icons  ul li a.instagram{
-      background:#dc4e41;
-  }
   .footer-icons  ul li a.twitter:hover{
       background: #FD5C63;
+  }
+  .footer-icons ul li a.instagram{
+    background: purple;
+  }
+  .footer-icons ul li a.fab-yelp{
+    background: red;
+  }
+  .footer-icons ul li a.fab-tripadvisor{
+    background: black;
   }
   /*-- END HOME PAGE FOOTER  --*/
 
@@ -340,135 +346,10 @@ body a {
   font-size: 25px;
   text-align: center;
 }
-
-
-/* END ABOUT PAGE STYLE SHEET*/
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
 }
-
-/* DO WE NEED THIS STUFF?? (below)*/
-
-/*-- contact --
-.contact-content {
-    padding: 4em 0;
-}
-.map {
-    margin: 4em 0 0 0;
-}
-.map iframe {
-    width: 100%;
-    min-height: 400px;
-    border: none;
-}
-.contact-head {
-    background: #444;
-    padding:1em 0;
-}
-.contact-head h3{
-    color:#f7ec13;
-    font-size: 2em;
-    text-align:left;
-    font-weight:600;
-    margin: 0;
-     text-transform: uppercase;
-}
-.e-mail p {
-    font-size: 1em;
-    margin: 1em 0 0 0;
-    color: #473B3B;
-    line-height: 1.8em;
-    text-align: center;
-}
-.e-mail p a{
-    color: #FD5C63;
-    text-decoration: none;
-}
-.contact-form {
-    margin: 3em 0;
-}
-.contact-form form {
-  margin: 2em 0 0 0;
-}
-.contact-form input[type="text"] {
-    width: 32.6%;
-    color: #898888;
-    background: none;
-    outline: none;
-    font-size: 1em;
-    padding: 1em;
-    margin: 0 .5em 1em 0;
-    border: solid 2px #3C3C3C;
-    -webkit-appearance: none;
-}
-.contact-form input[type="text"]:nth-child(3) {
-  margin-right: 0;
-}
-.contact-form textarea {
-  resize: none;
-  width: 100%;
-  color: #898888;
-  background: none;
-  font-size: 1em;
-  outline: none;
-  padding: 1em;
-  border: solid 2px #3C3C3C;
-  min-height: 150px;
-  -webkit-appearance: none;
-}
-.contact-form input[type="submit"] {
-    border: solid 2px #3C3C3C;
-    color: #3C3C3C;
-    font-size: 1em;
-    font-weight: 600;
-    padding: .7em 1em;
-    text-decoration: none;
-    letter-spacing: 1px;
-    background: none;
-    margin:1em 0 0 0;
-    -webkit-appearance:none;
-}
-.contact-form input[type="submit"]:hover {
-    border: solid 2px #FD5C63;
-    background: #FD5C63;
-    color: #FFFFFF;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
-.address-grids {
-  margin-top: 2em;
-}
-.address-grid {
-  width: 80%;
-  margin: 0 auto;
-}
-.address-grid h5 {
-    font-size: 1em;
-    margin: 0 0 1em 0;
-    color: #473B3B;
-    text-align: center;
-    line-height: 1.5em;
-    font-weight: 600;
-}
-.address-grid h5 span {
-  display: block;
-}
-.address-info-left {
-  float: left;
-}
-.address-info-left p {
-    font-size: 1em;
-    margin: 0;
-    color: #473B3B;
-    line-height: 1.8em;
-}
-.address-info-right {
-  float: right;
-}
--- //contact --*/
+/* END ABOUT PAGE STYLE SHEET*/
