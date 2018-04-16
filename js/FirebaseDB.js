@@ -8,4 +8,16 @@ var config = {
     messagingSenderId: "63263763302"
   };
   firebase.initializeApp(config);
+  var database = firebase.database();
 
+  function setMessages(messages) {
+    console.log("saved messages to Firebase");
+    database.ref("messages").set(messages);
+}
+
+function getMessages(callback){
+    database.ref("messages/").once("value").then(snapshot => {
+        var data = snapshot.val();
+        callback(data);
+    });
+}

@@ -1,7 +1,16 @@
+var messages;
+
 $('#contactForm').submit(function () {
     sendEmail();
     return false;
    });
+
+function getData () {
+    getMessages(function(data){
+        messages=data;
+        console.log(messages);
+    });
+}
 
 
 function sendEmail() {
@@ -12,13 +21,13 @@ function sendEmail() {
 
     console.log(email + name + message);
 
-    // messages.push({
-    //     from: email,
-    //     name: name,
-    //     text: message 
-    // });
+    messages.push({
+        from: email,
+        name: name,
+        text: message 
+    });
 
-    // console.log(messages);
-    // setMessages(messages);
+    console.log(messages);
+    setMessages(messages);
     
 }
