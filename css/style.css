@@ -15,6 +15,10 @@ body a {
       font-family: 'Francois One', sans-serif;
   }
 
+  #fb-section {
+    background: #3d3d3d;
+  }
+
   #contactConfirmation {
     visibility: hidden;
     color: green;
