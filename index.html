@@ -10,12 +10,13 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
     <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  -->
     <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
+<body onload="populateSlideshow()">
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
           var js, fjs = d.getElementsByTagName(s)[0];
@@ -63,60 +64,125 @@
                         <p> info@aromasdelsur.net </p>
 
                     </div>
-                    <div class="banner-grads">
-                        <div class="col-md-4 banner-grad">
-                            <div class="banner-grad-img">
-                                <img src="images/foodpic1.png" alt = "Camarones a la criolla"/>
-                                <div class="bigger-center-writing"> Camarones a la criolla </div>
+                    
+
+                    <div id="slideshow-container">
+                           
+                            <!-- Each image is 350px by 233px -->
+                            <div class="photobanner">
+                                <img class="first" src="images/slideshow/1.jpg" alt="" />
+                                <img src="images/slideshow/2.jpg" alt="" />
+                                <img src="images/slideshow/3.jpg" alt="" />
+                                <img src="images/slideshow/4.jpg" alt="" />
+                                <img src="images/slideshow/5.jpg" alt="" />
+                                <img src="images/slideshow/6.jpg" alt="" />
+                                <img src="images/slideshow/7.jpg" alt="" />
+                                <img src="images/slideshow/8.jpg" alt="" />
+                                <img src="images/slideshow/9.jpg" alt="" />
+                                <img src="images/slideshow/10.jpg" alt="" />
+                                <img src="images/slideshow/11.jpg" alt="" />
+                                <img src="images/slideshow/12.jpg" alt="" />
+                                <img src="images/slideshow/13.jpg" alt="" />
+                                <img src="images/slideshow/14.jpg" alt="" />
+                                <img src="images/slideshow/15.jpg" alt="" />
+                                <img src="images/slideshow/16.jpg" alt="" />
+                                <img src="images/slideshow/17.jpg" alt="" />
+                                <img src="images/slideshow/18.jpg" alt="" />
+                                <img src="images/slideshow/19.jpg" alt="" />
+                                <img src="images/slideshow/20.jpg" alt="" />
+                                <img src="images/slideshow/21.jpg" alt="" />
+                                <img src="images/slideshow/22.jpg" alt="" />
+                                <img src="images/slideshow/23.jpg" alt="" />
+                                <img src="images/slideshow/24.jpg" alt="" />
+                                <img src="images/slideshow/25.jpg" alt="" />
+                                <img src="images/slideshow/26.jpg" alt="" />
+                                <img src="images/slideshow/27.jpg" alt="" />
+                                <img src="images/slideshow/28.jpg" alt="" />
+                                <img src="images/slideshow/29.jpg" alt="" />
+                                <img src="images/slideshow/30.jpg" alt="" />
+                                <img src="images/slideshow/1.jpg" alt="" />
+                                <img src="images/slideshow/2.jpg" alt="" />
+                                <img src="images/slideshow/3.jpg" alt="" />
+                                <img src="images/slideshow/4.jpg" alt="" />
+                                <img src="images/slideshow/5.jpg" alt="" />
+            
                             </div>
+
+                            <div class="banner-grads">
+                                    <div class="col-md-4 banner-grad">
+                                        <div class="banner-grad-img">
+                                            <img src="images/foodpic1.png" alt = "Camarones a la criolla"/>
+                                            <div class="bigger-center-writing"> Camarones a la criolla </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 banner-grad">
+                                        <div class="banner-grad-img">
+                                            <img src="images/foodpic2.png" alt="Ceviche" />
+                                            <div class="center-writing"> Ceviche </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 banner-grad">
+                                        <div class="banner-grad-img">
+                                            <img src="images/foodpic3.png" alt="Pasta con seafood" />
+                                            <div class="center-writing"> Pasta con Seafood </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"> </div>
+                                </div>
+                                <div class="banner-grads-part2">
+                                    <div class="col-md-4 banner-grad">
+                                        <div class="banner-grad-img">
+                                            <img src="images/foodpic4.png" alt = "Camarones a la criolla"/>
+                                            <div class="bigger-center-writing"> Empanadas </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 banner-grad">
+                                        <div class="banner-grad-img">
+                                            <img src="images/foodpic5.png" alt="Ceviche" />
+                                            <div class="center-writing"> Picada </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 banner-grad">
+                                        <div class="banner-grad-img">
+                                            <img src="images/foodpic6.png" alt="Pasta con seafood" />
+                                            <div class="center-writing"> Pollo Caribeno </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"> </div>
+                                </div>
                         </div>
-                        <div class="col-md-4 banner-grad">
-                            <div class="banner-grad-img">
-                                <img src="images/foodpic2.png" alt="Ceviche" />
-                                <div class="center-writing"> Ceviche </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 banner-grad">
-                            <div class="banner-grad-img">
-                                <img src="images/foodpic3.png" alt="Pasta con seafood" />
-                                <div class="center-writing"> Pasta con Seafood </div>
-                            </div>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="banner-grads-part2">
-                        <div class="col-md-4 banner-grad">
-                            <div class="banner-grad-img">
-                                <img src="images/foodpic4.png" alt = "Camarones a la criolla"/>
-                                <div class="bigger-center-writing"> Empanadas </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 banner-grad">
-                            <div class="banner-grad-img">
-                                <img src="images/foodpic5.png" alt="Ceviche" />
-                                <div class="center-writing"> Picada </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 banner-grad">
-                            <div class="banner-grad-img">
-                                <img src="images/foodpic6.png" alt="Pasta con seafood" />
-                                <div class="center-writing"> Pollo Caribeno </div>
-                            </div>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
+            
+
                 </div>
             </div>
             <!-- //banner -->
         </div>
 
-        <div class="fb-feed">
+    
+        <!-- <div class="fb-feed" id="fb-feed">
             <div class="containter">
                     <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
             </div>
-        </div>
+        </div> -->
+<!--
+        <div class="container-fluid" id="slideshow-div">
+                <div class="col-md-6 col-md-offset-3 banner-grad-img">
+                        <div class="w3-content w3-display-container" id="slideshow">
+                            </div>
+                </div>
+        </div> -->
+        
 
-        <!-- customer -->
+        <!-- <div class="container-fluid" >
+                <div class="col-md-6 col-md-offset-3 banner-grad">
+                        <div class="banner-grad-img" id="slideshow-div">
+                            <img src="images/slideshow/1.jpg" />
+                        </div>
+                </div>
+        </div> -->
+        
+
+        <!-- customer 
         <div class="customer">
             <div class="container">
                 <div class="customer-heading">
@@ -154,7 +220,7 @@
                 </div>
             </div>
         </div>
-        <!-- //customer -->
+        //customer -->
 
         <!-- footer -->
         <div class="footer">

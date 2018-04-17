@@ -1,5 +1,7 @@
 /* #E42528 color of favicon */
 
+* {margin: 0; padding: 0;}
+
 body a {
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -18,7 +20,121 @@ body a {
     color: green;
   }
 
+  #slideshow-container {
+    width: 100%;
+    overflow: hidden;
+    background: #3d3d3d;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   }
+
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 90s linear infinite;
+       -moz-animation: bannermove 90s linear infinite;
+        -ms-animation: bannermove 90s linear infinite;
+         -o-animation: bannermove 90s linear infinite;
+            animation: bannermove 90s linear infinite;
+   }
+    
+   @keyframes "bannermove" {
+    0% {
+       margin-left: 0px;
+    }
+    100% {
+       margin-left: -10645px;
+    }
+    
+   }
+    
+   @-moz-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -10645px;
+    }
+    
+   }
+    
+   @-webkit-keyframes "bannermove" {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -10645px;
+    }
+    
+   }
+    
+   @-ms-keyframes "bannermove" {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -10645px;
+    }
+    
+   }
+    
+   @-o-keyframes "bannermove" {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -10645px;
+    }
+    
+   }
+
+   .photobanner {
+    height: 233px;
+    width: 20000px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+   }
+    
+   .photobanner img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+   }
+    
+   .photobanner img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+   }
+
+  #slideshow{
+      background-color: #3d3d3d;
+  }
+
+  #slideshow-div {
+      background-color: #3d3d3d;
+  }
+
+  #fb-feed {
+      background-color:#3d3d3d;
+  }
+
+  #contactHeader {
+    color: white;
+    margin-bottom: 0.7em;
+  }
+
   #contactSection {
+    margin-top: 7em;
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
     margin-bottom: 10em;
